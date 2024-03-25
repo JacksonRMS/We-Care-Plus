@@ -7,9 +7,9 @@
 }
 
 header {
-    margin: 20px 5px 50px 950px;
-    position: sticky;
-    top: 35px;
+    margin: 30px 5px 50px 950px;
+    /* position: fixed;
+    top: 35px; */
 }
 
 a {
@@ -22,6 +22,12 @@ a {
     font-size: 23px;
     cursor: pointer;
     color: #515151;
+}
+
+a:hover{
+    font-size: 25px;
+    color: #9b9410;
+    transition: 0.5s ease-in-out;
 }
 
 .entrar{
@@ -52,6 +58,7 @@ h4{
     font-weight: 700;
 }
 p {
+    font-size: 30px;
     font-weight: 400;
     margin-top: 20px;
     width: 600px;
@@ -60,6 +67,7 @@ p {
 }
 
 .container{
-    text-align: center;
+    text-align: -webkit-center;
     margin-top: 180px;
+    margin-bottom: 200px;
 }

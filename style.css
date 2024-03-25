@@ -13,9 +13,7 @@ main{
 }
 
 header {
-    margin: 20px 5px 50px 950px;
-    position: sticky;
-    top: 35px;
+    margin: 30px 5px 50px 950px;
 }
 
 a {
