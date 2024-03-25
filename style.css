@@ -13,14 +13,16 @@ main{
 }
 
 header {
-    margin: 20px 5px 50px 750px;
+    margin: 20px 5px 50px 950px;
+    position: sticky;
+    top: 35px;
 }
 
 a {
     width: 108px;
     height: 29px;
     text-transform: uppercase;
-    padding: 30px;
+    padding: 12px;
     text-decoration: none;
     font-weight: 600;
     font-size: 23px;
@@ -32,7 +34,6 @@ img {
     height: 500px;
     width: 550px;
     margin: 10px 100px 50px 80px;
-
     border-radius: 300px;
 }
 
@@ -92,9 +93,7 @@ h3 {
 
 p {
     font-weight: 400;
-    /* text-transform: uppercase; */
     margin-top: 20px;
-    /* margin-left: 50px; */
     width: 600px;
-    /* margin: 100px 100px; */
+    color: #515151;
 }
