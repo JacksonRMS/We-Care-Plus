@@ -12,20 +12,29 @@ main{
     gap: 300px;
 }
 
-header {
-    margin: 30px 5px 50px 950px;
+header
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:end;
 }
 
 a {
-    width: 108px;
-    height: 29px;
     text-transform: uppercase;
-    padding: 12px;
+    padding: 8px;
     text-decoration: none;
     font-weight: 600;
     font-size: 23px;
     cursor: pointer;
     color: #515151;
+}
+
+a:hover{
+    font-size: 25px;
+    color: #9b9410;
+    transition: 0.5s ease-in-out;
 }
 
 img {
@@ -36,11 +45,12 @@ img {
 }
 
 .entrar{
+    margin-right: 50px;
     background-color: #70dff2;
     color: white;
-    padding: 4px;
+    padding: 8px;
     font-weight: 500;
-    width: 150px;
+    width: 110px;
     Height: 41px;
     border-radius: 18px;
     border: none;
@@ -48,6 +58,13 @@ img {
     font-weight: 700;
     cursor: pointer;
     filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+
+.entrar:hover{
+    font-size: 25px;
+    color: #9b9410;
+    background-color:greenyellow;
+    transition: 0.5s ease-in-out;
 }
 
 .explorar {
