@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: url("img/capa4.png");
+    background-size: contain;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1edac;
+}
+
+.container {
+    width: 420px;
+    height: 500px;
+    background: transparent;
+    border: 2px solid #919191;
+    backdrop-filter: blur(15px);
+    box-shadow: 5px 5px 10px black;
+    padding: 30px 40px;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 36px;
+    text-align: center;
+    color: #515151;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-container input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border: 3px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-container input::placeholder {
+    color: black;
+}
+
+.input-container img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 24px;
+    top: 2%;
+    margin-top: 12px;
+}
+
+.link {
+    font-size: 16px;
+    display: flex;
+    margin-top: 20px;
+    color: #515151;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.link:hover {
+    font-size: 17px;
+    text-decoration: underline;
+    color: #919191;
+    transition: 0.8s ease-in-out;
+}
+
+.start {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    box-shadow: 4px 4px 5px black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.start:hover {
+    background-color: aquamarine;
+    width: 101%;
+    height: 52px;
+    transition: 0.5s ease-in-out;
+}
+
+.cad p a{
+    margin-top: 30px;
+}
