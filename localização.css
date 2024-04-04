@@ -28,18 +28,23 @@ a {
     color: #515151;
 }
 
-a:hover {
+a:hover{
     font-size: 25px;
     color: #9b9410;
     transition: 0.5s ease-in-out;
 }
 
-.entrar {
+img {
+    height: 500px;
+    width: 550px;
+    margin: 10px 100px 50px 80px;
+    border-radius: 300px;
+}
+
+.entrar{
     margin-right: 50px;
     background-color: #70dff2;
-    color: white;
     padding: 8px;
-    font-weight: 500;
     width: 110px;
     Height: 41px;
     border-radius: 18px;
@@ -47,14 +52,19 @@ a:hover {
     font-size: 23px;
     font-weight: 700;
     cursor: pointer;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
 }
 
-.entrar:hover {
+.entrar:hover{
     font-size: 25px;
-    color: #9b9410;
-    background-color: greenyellow;
+    color: transparent;
+    background-color:greenyellow;
     transition: 0.5s ease-in-out;
+}
+
+#log{
+background: transparent;
+color: white;   
 }
 
 h2{
